@@ -1,0 +1,33 @@
+.card:hover .card__img{
+    transform: scale(1.5);
+}
+
+.card:hover .card__time{
+    opacity: 0;
+    transform: scale(0);
+}
+
+.card:hover .card__icon{
+    transform: scale(1.8) rotateX(180deg);
+}
+
+.collection__content:hover::before{
+    transform: translateY(200%);
+}
+.collection__content:hover::after{
+    transform: translateY(-200%);
+}
+
+.collection__content:hover .collection__icon{
+    transform: scale(1.5) rotateX(180deg);
+    margin-top: 50px;
+}
+
+.collection__content:hover .collection__title{
+    transform: scale(0);
+    opacity: 0;
+}
+
+.series__card:hover .series__img{
+    transform: scale(1.2);
+}
